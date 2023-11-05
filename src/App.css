@@ -1,0 +1,87 @@
+.container {
+    margin: 5% auto;
+    width: 950px;
+}
+
+.loading {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 45px;
+}
+
+.jobs {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+button {
+    line-height: 1.8;
+
+    border: none;
+    background: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+
+button:hover {
+    border-left: 2px aqua solid;
+    cursor: pointer;
+    color: aqua;
+    transition: 0.5s;
+}
+
+.under-line {
+    background-color: aqua;
+    height: 3px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.job-info h3 {
+    font-size: 20px;
+}
+
+.job-info h4 {
+    background-color: rgb(198, 198, 198);
+    padding: 8px;
+    border-radius: 4px;
+    width: 9%;
+    text-align: center;
+
+}
+
+.dates {
+    color: rgb(141, 140, 140);
+}
+
+.job-info {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.icon {
+    color: aqua;
+    font-size: 16px;
+}
+
+.duty {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-btn {
+    color: aqua;
+    border-left: 2px aqua solid;
+}
